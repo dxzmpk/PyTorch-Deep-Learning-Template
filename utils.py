@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torchvision.utils import make_grid
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
+# device = 'cuda' if torch.cuda.is_available() else 'cpu'
+device = 'cpu'
 plt.interactive(False)
 
 
